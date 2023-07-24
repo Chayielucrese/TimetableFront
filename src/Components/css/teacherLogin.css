@@ -1,0 +1,108 @@
+
+.login_main_div1{
+    padding: 0;
+    margin: 0;
+      height: 100%;
+      width: 100%;
+      display: flex;
+    background-image:linear-gradient(rgba(10, 1, 1, 0.5), rgba(5, 0, 0, 0.6)), url("../../Images/SE-1650x1100.jpg");
+    background-size: cover;
+    
+    
+    }
+     
+    .login_div_right1{
+    
+      display: inline-block;
+      height: 500px;
+      width: 40%;
+     margin-top: 160px;
+    
+      background-size: cover;
+     /* background-image: url("../../Images/Webinar-amico.png"); */
+      margin-left: 200px;
+      flex-wrap: wrap;
+     
+    }
+    .login_div_left1{
+    background-color:rgb(219, 25, 25);
+      height: 600px;
+      width: 30%;
+      margin-left: 50px;
+      margin-top: 50px;
+     border: 2px solid gold;
+     
+    }
+    .login_div_left_logo1{
+      height: 100px;
+      width: 30%;
+      margin: 30px;
+     display: inline-block;
+      margin-left: 130px;
+      background-image: url("../../Images/IAI.com.png");
+      background-size: contain;
+     
+    }
+    .loginform1{
+    
+      display: inline-block;
+      margin: 0px;
+      margin-top: 30px;
+      width: 30%;
+      position:fixed;
+    
+    }
+    .loginform1 a{
+      text-decoration: none;
+      float: left;
+     padding-left: 250px;
+     color: white;
+     font-weight: 100px;
+     font-family: 'Times New Roman', Times, serif;
+    }
+    .loginbutton1{
+      float: left;
+      background-color:gold;
+      color: white;
+      position: relative;
+      float: left;
+      width: 80%;
+      height: 30px;
+      margin-left: 40px;
+      margin: 40px;
+      border: none;
+      color: black;
+      font-family: 'Times New Roman', Times, serif;
+    }
+    .loginbutton1:hover{
+     
+      cursor: pointer;
+      border-radius: 40px;
+    
+    }
+    .login_left_input1{
+    
+      border: none;
+      height: 50px;
+      width: 80%;
+      border-bottom: 1px solid #ccc;
+      outline: 0px;
+      background: none;
+      display: inline-block;
+    color: wheat;
+    padding-left: 30px;
+    margin: 20px;
+    
+    
+      
+    }
+    .login_left_input1::placeholder{
+      color: white;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: medium;
+      text-transform: capitalize;
+      padding-left: 0px;
+      margin: 0;
+    }
+    
+    

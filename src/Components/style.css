@@ -1,0 +1,325 @@
+[data-sidebar-style="overlay"] .dlabnav .metismenu > li {
+    padding: 0rem 0.9375rem;
+    padding-top: 0rem;
+    padding-right: 0.9375rem;
+    padding-bottom: 0rem;
+    padding-left: 0.9375rem;
+}
+[data-sidebar-style="overlay"] .dlabnav .metismenu > li {
+    padding: 0 1rem;
+}
+.dlabnav .metismenu li {
+    position: relative;
+}
+.dlabnav .metismenu > li {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0;
+}
+li {
+    list-style: none;
+}
+* {
+    outline: none;
+    padding: 0;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.dlabnav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+user agent stylesheet
+ul {
+    list-style-type: disc;
+}
+[data-sidebarbg="color_2"][data-theme-version="dark"], [data-sidebarbg="color_2"] {
+    --sidebar-bg: #4D44B5;
+}
+[data-nav-headerbg="color_2"][data-theme-version="dark"], [data-nav-headerbg="color_2"] {
+    --nav-headbg: #4D44B5;
+}
+[data-theme-version="dark"] {
+    background: #202020;
+    color: rgba(255, 255, 255, 0.6);
+    --nav-headbg: #272738;
+    --sidebar-bg: #202020;
+    --headerbg: #272738;
+}
+[data-theme-version="dark"] {
+    background: #202020;
+    color: rgba(255, 255, 255, 0.6);
+    --nav-headbg: #272738;
+    --sidebar-bg: #202020;
+    --headerbg: #272738;
+}
+[data-typography="poppins"] {
+    font-family: 'poppins', sans-serif;
+}
+@media only screen and (max-width: 61.9375rem)
+{body {
+    font-size: 0.875rem;
+}
+body {
+    overflow-x: hidden;
+    height: 100%;
+    position: relative;
+    max-width: 100%;
+    font-size: 0.875rem;
+}
+body {
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    background-color: var(--bs-body-bg);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}}
+:root {
+    --primary: #4D44B5;
+    --secondary: #FB7D5B;
+    --primary-hover: #3d3690;
+    --primary-dark: #1e1a46;
+    --rgba-primary-1: rgba(77, 68, 181, 0.1);
+    --rgba-primary-2: rgba(77, 68, 181, 0.2);
+    --rgba-primary-3: rgba(77, 68, 181, 0.3);
+    --rgba-primary-4: rgba(77, 68, 181, 0.4);
+    --rgba-primary-5: rgba(77, 68, 181, 0.5);
+    --rgba-primary-6: rgba(77, 68, 181, 0.6);
+    --rgba-primary-7: rgba(77, 68, 181, 0.7);
+    --rgba-primary-8: rgba(77, 68, 181, 0.8);
+    --rgba-primary-9: rgba(77, 68, 181, 0.9);
+    --rgba-secondary-1: rgba(251, 125, 91, 0.1);
+    --rgba-secondary-2: rgba(251, 125, 91, 0.2);
+    --rgba-secondary-3: rgba(251, 125, 91, 0.3);
+    --rgba-secondary-4: rgba(251, 125, 91, 0.4);
+    --rgba-secondary-5: rgba(251, 125, 91, 0.5);
+    --rgba-secondary-6: rgba(251, 125, 91, 0.6);
+    --rgba-secondary-7: rgba(251, 125, 91, 0.7);
+    --rgba-secondary-8: rgba(251, 125, 91, 0.8);
+    --rgba-secondary-9: rgba(251, 125, 91, 0.9);
+    --font-family-base: Poppins, sans-serif;
+    --font-family-title: Poppins, sans-serif;
+    --font-family-base: Poppins, sans-serif;
+    --font-family-title: Poppins, sans-serif;
+    --title: #303972;
+}
+:root {
+    --primary: #4D44B5;
+    --secondary: #FB7D5B;
+    --primary-hover: #3d3690;
+    --primary-dark: #1e1a46;
+    --rgba-primary-1: rgba(77, 68, 181, 0.1);
+    --rgba-primary-2: rgba(77, 68, 181, 0.2);
+    --rgba-primary-3: rgba(77, 68, 181, 0.3);
+    --rgba-primary-4: rgba(77, 68, 181, 0.4);
+    --rgba-primary-5: rgba(77, 68, 181, 0.5);
+    --rgba-primary-6: rgba(77, 68, 181, 0.6);
+    --rgba-primary-7: rgba(77, 68, 181, 0.7);
+    --rgba-primary-8: rgba(77, 68, 181, 0.8);
+    --rgba-primary-9: rgba(77, 68, 181, 0.9);
+    --rgba-secondary-1: rgba(251, 125, 91, 0.1);
+    --rgba-secondary-2: rgba(251, 125, 91, 0.2);
+    --rgba-secondary-3: rgba(251, 125, 91, 0.3);
+    --rgba-secondary-4: rgba(251, 125, 91, 0.4);
+    --rgba-secondary-5: rgba(251, 125, 91, 0.5);
+    --rgba-secondary-6: rgba(251, 125, 91, 0.6);
+    --rgba-secondary-7: rgba(251, 125, 91, 0.7);
+    --rgba-secondary-8: rgba(251, 125, 91, 0.8);
+    --rgba-secondary-9: rgba(251, 125, 91, 0.9);
+    --font-family-base: Poppins, sans-serif;
+    --font-family-title: Poppins, sans-serif;
+    --font-family-base: Poppins, sans-serif;
+    --font-family-title: Poppins, sans-serif;
+    --title: #303972;
+}
+:root {
+    --primary: #4D44B5;
+    --secondary: #FB7D5B;
+    --primary-hover: #3d3690;
+    --primary-dark: #1e1a46;
+    --rgba-primary-1: rgba(77, 68, 181, 0.1);
+    --rgba-primary-2: rgba(77, 68, 181, 0.2);
+    --rgba-primary-3: rgba(77, 68, 181, 0.3);
+    --rgba-primary-4: rgba(77, 68, 181, 0.4);
+    --rgba-primary-5: rgba(77, 68, 181, 0.5);
+    --rgba-primary-6: rgba(77, 68, 181, 0.6);
+    --rgba-primary-7: rgba(77, 68, 181, 0.7);
+    --rgba-primary-8: rgba(77, 68, 181, 0.8);
+    --rgba-primary-9: rgba(77, 68, 181, 0.9);
+    --rgba-secondary-1: rgba(251, 125, 91, 0.1);
+    --rgba-secondary-2: rgba(251, 125, 91, 0.2);
+    --rgba-secondary-3: rgba(251, 125, 91, 0.3);
+    --rgba-secondary-4: rgba(251, 125, 91, 0.4);
+    --rgba-secondary-5: rgba(251, 125, 91, 0.5);
+    --rgba-secondary-6: rgba(251, 125, 91, 0.6);
+    --rgba-secondary-7: rgba(251, 125, 91, 0.7);
+    --rgba-secondary-8: rgba(251, 125, 91, 0.8);
+    --rgba-secondary-9: rgba(251, 125, 91, 0.9);
+    --font-family-base: Poppins, sans-serif;
+    --font-family-title: Poppins, sans-serif;
+    --font-family-base: Poppins, sans-serif;
+    --font-family-title: Poppins, sans-serif;
+    --title: #303972;
+}
+:root {
+    --primary: #4D44B5;
+    --secondary: #FB7D5B;
+    --primary-hover: #3d3690;
+    --primary-dark: #1e1a46;
+    --rgba-primary-1: rgba(77, 68, 181, 0.1);
+    --rgba-primary-2: rgba(77, 68, 181, 0.2);
+    --rgba-primary-3: rgba(77, 68, 181, 0.3);
+    --rgba-primary-4: rgba(77, 68, 181, 0.4);
+    --rgba-primary-5: rgba(77, 68, 181, 0.5);
+    --rgba-primary-6: rgba(77, 68, 181, 0.6);
+    --rgba-primary-7: rgba(77, 68, 181, 0.7);
+    --rgba-primary-8: rgba(77, 68, 181, 0.8);
+    --rgba-primary-9: rgba(77, 68, 181, 0.9);
+    --rgba-secondary-1: rgba(251, 125, 91, 0.1);
+    --rgba-secondary-2: rgba(251, 125, 91, 0.2);
+    --rgba-secondary-3: rgba(251, 125, 91, 0.3);
+    --rgba-secondary-4: rgba(251, 125, 91, 0.4);
+    --rgba-secondary-5: rgba(251, 125, 91, 0.5);
+    --rgba-secondary-6: rgba(251, 125, 91, 0.6);
+    --rgba-secondary-7: rgba(251, 125, 91, 0.7);
+    --rgba-secondary-8: rgba(251, 125, 91, 0.8);
+    --rgba-secondary-9: rgba(251, 125, 91, 0.9);
+    --font-family-base: Poppins, sans-serif;
+    --font-family-title: Poppins, sans-serif;
+    --font-family-base: Poppins, sans-serif;
+    --font-family-title: Poppins, sans-serif;
+    --title: #303972;
+}
+:root {
+    --primary: #4D44B5;
+    --secondary: #FB7D5B;
+    --primary-hover: #3d3690;
+    --primary-dark: #1e1a46;
+    --rgba-primary-1: rgba(77, 68, 181, 0.1);
+    --rgba-primary-2: rgba(77, 68, 181, 0.2);
+    --rgba-primary-3: rgba(77, 68, 181, 0.3);
+    --rgba-primary-4: rgba(77, 68, 181, 0.4);
+    --rgba-primary-5: rgba(77, 68, 181, 0.5);
+    --rgba-primary-6: rgba(77, 68, 181, 0.6);
+    --rgba-primary-7: rgba(77, 68, 181, 0.7);
+    --rgba-primary-8: rgba(77, 68, 181, 0.8);
+    --rgba-primary-9: rgba(77, 68, 181, 0.9);
+    --rgba-secondary-1: rgba(251, 125, 91, 0.1);
+    --rgba-secondary-2: rgba(251, 125, 91, 0.2);
+    --rgba-secondary-3: rgba(251, 125, 91, 0.3);
+    --rgba-secondary-4: rgba(251, 125, 91, 0.4);
+    --rgba-secondary-5: rgba(251, 125, 91, 0.5);
+    --rgba-secondary-6: rgba(251, 125, 91, 0.6);
+    --rgba-secondary-7: rgba(251, 125, 91, 0.7);
+    --rgba-secondary-8: rgba(251, 125, 91, 0.8);
+    --rgba-secondary-9: rgba(251, 125, 91, 0.9);
+    --font-family-base: Poppins, sans-serif;
+    --font-family-title: Poppins, sans-serif;
+    --font-family-base: Poppins, sans-serif;
+    --font-family-title: Poppins, sans-serif;
+    --title: #303972;
+}
+:root {
+    --primary: #4D44B5;
+    --secondary: #FB7D5B;
+    --primary-hover: #3d3690;
+    --primary-dark: #1e1a46;
+    --rgba-primary-1: rgba(77, 68, 181, 0.1);
+    --rgba-primary-2: rgba(77, 68, 181, 0.2);
+    --rgba-primary-3: rgba(77, 68, 181, 0.3);
+    --rgba-primary-4: rgba(77, 68, 181, 0.4);
+    --rgba-primary-5: rgba(77, 68, 181, 0.5);
+    --rgba-primary-6: rgba(77, 68, 181, 0.6);
+    --rgba-primary-7: rgba(77, 68, 181, 0.7);
+    --rgba-primary-8: rgba(77, 68, 181, 0.8);
+    --rgba-primary-9: rgba(77, 68, 181, 0.9);
+    --rgba-secondary-1: rgba(251, 125, 91, 0.1);
+    --rgba-secondary-2: rgba(251, 125, 91, 0.2);
+    --rgba-secondary-3: rgba(251, 125, 91, 0.3);
+    --rgba-secondary-4: rgba(251, 125, 91, 0.4);
+    --rgba-secondary-5: rgba(251, 125, 91, 0.5);
+    --rgba-secondary-6: rgba(251, 125, 91, 0.6);
+    --rgba-secondary-7: rgba(251, 125, 91, 0.7);
+    --rgba-secondary-8: rgba(251, 125, 91, 0.8);
+    --rgba-secondary-9: rgba(251, 125, 91, 0.9);
+    --font-family-base: Poppins, sans-serif;
+    --font-family-title: Poppins, sans-serif;
+    --font-family-base: Poppins, sans-serif;
+    --font-family-title: Poppins, sans-serif;
+    --title: #303972;
+}
+:root {
+    --primary: #4D44B5;
+    --secondary: #FB7D5B;
+    --primary-hover: #3d3690;
+    --primary-dark: #1e1a46;
+    --rgba-primary-1: rgba(77, 68, 181, 0.1);
+    --rgba-primary-2: rgba(77, 68, 181, 0.2);
+    --rgba-primary-3: rgba(77, 68, 181, 0.3);
+    --rgba-primary-4: rgba(77, 68, 181, 0.4);
+    --rgba-primary-5: rgba(77, 68, 181, 0.5);
+    --rgba-primary-6: rgba(77, 68, 181, 0.6);
+    --rgba-primary-7: rgba(77, 68, 181, 0.7);
+    --rgba-primary-8: rgba(77, 68, 181, 0.8);
+    --rgba-primary-9: rgba(77, 68, 181, 0.9);
+    --rgba-secondary-1: rgba(251, 125, 91, 0.1);
+    --rgba-secondary-2: rgba(251, 125, 91, 0.2);
+    --rgba-secondary-3: rgba(251, 125, 91, 0.3);
+    --rgba-secondary-4: rgba(251, 125, 91, 0.4);
+    --rgba-secondary-5: rgba(251, 125, 91, 0.5);
+    --rgba-secondary-6: rgba(251, 125, 91, 0.6);
+    --rgba-secondary-7: rgba(251, 125, 91, 0.7);
+    --rgba-secondary-8: rgba(251, 125, 91, 0.8);
+    --rgba-secondary-9: rgba(251, 125, 91, 0.9);
+    --font-family-base: Poppins, sans-serif;
+    --font-family-title: Poppins, sans-serif;
+    --font-family-base: Poppins, sans-serif;
+    --font-family-title: Poppins, sans-serif;
+    --title: #303972;
+}
+:root {
+    --primary: #4D44B5;
+    --secondary: #FB7D5B;
+    --primary-hover: #3d3690;
+    --primary-dark: #1e1a46;
+    --rgba-primary-1: rgba(77, 68, 181, 0.1);
+    --rgba-primary-2: rgba(77, 68, 181, 0.2);
+    --rgba-primary-3: rgba(77, 68, 181, 0.3);
+    --rgba-primary-4: rgba(77, 68, 181, 0.4);
+    --rgba-primary-5: rgba(77, 68, 181, 0.5);
+    --rgba-primary-6: rgba(77, 68, 181, 0.6);
+    --rgba-primary-7: rgba(77, 68, 181, 0.7);
+    --rgba-primary-8: rgba(77, 68, 181, 0.8);
+    --rgba-primary-9: rgba(77, 68, 181, 0.9);
+    --rgba-secondary-1: rgba(251, 125, 91, 0.1);
+    --rgba-secondary-2: rgba(251, 125, 91, 0.2);
+    --rgba-secondary-3: rgba(251, 125, 91, 0.3);
+    --rgba-secondary-4: rgba(251, 125, 91, 0.4);
+    --rgba-secondary-5: rgba(251, 125, 91, 0.5);
+    --rgba-secondary-6: rgba(251, 125, 91, 0.6);
+    --rgba-secondary-7: rgba(251, 125, 91, 0.7);
+    --rgba-secondary-8: rgba(251, 125, 91, 0.8);
+    --rgba-secondary-9: rgba(251, 125, 91, 0.9);
+    --font-family-base: Poppins, sans-serif;
+    --font-family-title: Poppins, sans-serif;
+    --font-family-base: Poppins, sans-serif;
+    --font-family-title: Poppins, sans-serif;
+    --title: #303972;
+}
+:root {
+    --primary: #4D44B5;
+    --secondary: #FB7D5B;
+    --primary-hover: #3d3690;
+    --primary-dark: #1e1a46;}

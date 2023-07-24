@@ -1,0 +1,67 @@
+.bell-icon1{
+    height: 40px;
+    width: 20%;
+   display: flex;
+   justify-content: left;
+   margin: 10px;
+   margin-left:1000px ;
+   position: fixed;
+    /* justify-content: space-between; */
+    /* border-radius: 50%;
+margin-left: 1000px;
+margin-top: 6px;
+display: grid;
+grid-template-rows: 1fr 1fr;
+background-color: aqua; */
+}
+.bell-icon{
+    font-size: 24px;
+     margin-left: 13px;
+     cursor: pointer;
+  
+}
+.msg-icon{
+   
+    font-size: 24px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.user-icon{
+
+    font-size: 24px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    cursor: pointer;
+   
+}
+
+.msg, .bell, .user{
+    height: 40px;
+    width: 18%;
+    font-size: 30px;
+margin-left: 30px;
+    margin-bottom: 5px;
+    border-radius: 50%;
+   
+    
+}
+.msg:hover{
+    background-color: gold;
+
+}
+ .bell:hover{
+    background-color: gold;
+   
+}
+.three_dots:hover{
+
+  border-radius: 50%;
+  
+ cursor: pointer;
+}
+.user{ 
+    width: 30%;
+    height: 50px;
+     margin-left: 20px;
+     margin-bottom: 10px;
+}

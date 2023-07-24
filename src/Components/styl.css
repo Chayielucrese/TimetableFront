@@ -1,0 +1,504 @@
+
+/*------LandingPage design ---------*/
+*{
+  padding: 0px;
+  margin: 0px;
+}
+.main_div{
+    height: 1000px;
+     margin: 0px;
+     padding: 0px;
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url('../Images/campus.png');
+    background-size: cover;
+}
+.main_div_2{
+
+  margin-top: 100px;
+  height: 800px;
+    display: inline-block;
+    width: 100%;
+/* background-color: green; */
+    color: white;
+   
+   
+    
+}
+ .main_div_IAI_img, .main_div_IAI_info{
+height: 100px;
+  /* background-color:brown; */
+    width: 40%;
+}
+.main_but{
+   
+  background-color: green;
+  margin-left: 80px;
+  width: 30%;
+  height: 40px;
+  
+  border-radius: 30px;
+}
+.main_but a{
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color: white;
+
+}
+ .msg_two{
+
+margin-left: 70px;
+margin-top: 170px;
+padding: 0px;
+font-size: 30px;
+text-decoration-line: underline;
+font-family: 'Times New Roman', Times, serif;
+}
+
+.main_div_IAI_img{
+   margin-left: 60px;
+ /* background-color: yellow; */
+   height: 500px;
+   width: 50%;
+   display:inline-flex;
+   width: 40%;
+   float: left;
+ display: inline-block;
+   overflow: auto;
+   margin-top: 200px;
+   
+
+}
+
+ .img_IAI{
+   background-image: url('../Images/IAI.com.png');
+   background-size: cover;
+    height: 220px;
+    width: 50%;
+    margin-left: 130px;
+    margin-top: 20px;
+
+   
+}
+
+
+.div_img_IAI_tittle{
+margin-left: 0px;
+    height: 150px;
+    width: 100%;
+font-family:'Times New Roman', Times, serif;
+font-size: 70px;
+text-align: center;
+width: 100%;
+
+}
+
+.main_div_IAI_info{
+    float: right;
+    height: 400px;
+    width: 50%;
+}
+
+.home_iai-img{
+    background-color: black;
+    height:180px;
+   border-collapse: collapse;
+    width: 50%;
+    margin-left: 640px;
+    margin-top: 300px;
+    display: inline-block;
+}
+
+
+/*------HomePage Design--------*/
+
+.home_main_div{
+    background-image:linear-gradient(rgba(144, 238, 144, 0.5), rgba(144, 238, 144, 0.5)) ,url("../Images/double\ screen.png");
+    background-size: cover;
+    height: 1000px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*...................LoginForm................*/
+
+
+.login_main_div{
+padding: 0;
+margin: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url("../Images/double\ screen.png");
+background-size: cover;
+
+
+}
+ 
+.login_div_right{
+
+  display: inline-block;
+  height: 500px;
+  width: 40%;
+ margin-top: 160px;
+
+  background-size: cover;
+ background-image: url("../Images/Enter\ OTP-cuate.png");
+  margin-left: 200px;
+  flex-wrap: wrap;
+ 
+}
+.login_div_left{
+background-color:green;
+  height: 600px;
+  width: 30%;
+  margin-left: 50px;
+  margin-top: 50px;
+ 
+}
+.login_div_left_logo{
+  height: 100px;
+  width: 30%;
+  margin: 30px;
+ display: inline-block;
+  margin-left: 130px;
+  background-image: url("../Images/IAI.com.png");
+  background-size: contain  ;
+}
+.loginform{
+
+  display: inline-block;
+  margin: 0px;
+  margin-top: 30px;
+  width: 30%;
+  position:fixed;
+
+}
+.loginform a{
+  text-decoration: none;
+  float: left;
+ padding-left: 250px;
+ color: white;
+ font-weight: 100px;
+ font-family: 'Times New Roman', Times, serif;
+}
+.loginbutton{
+  float: left;
+  background-color:gold;
+  color: white;
+  position: relative;
+  float: left;
+  width: 80%;
+  height: 30px;
+  margin-left: 40px;
+  margin: 40px;
+  border: none;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+}
+.loginbutton:hover{
+ 
+  cursor: pointer;
+  border-radius: 40px;
+
+}
+.login_left_input{
+
+  border: none;
+  height: 50px;
+  width: 80%;
+  border-bottom: 1px solid #ccc;
+  outline: 0px;
+  background: none;
+  display: inline-block;
+color: white;
+padding-left: 30px;
+margin: 20px;
+text-transform: uppercase;
+
+
+  
+}
+.login_left_input option{
+  color: #080c09;
+  background-color:rgb(205, 218, 182);
+  
+}
+.login_left_input::placeholder{
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: medium;
+  text-transform: capitalize;
+  padding-left: 0px;
+  margin: 0;
+}
+
+
+/*-----Resetpassword------*/
+
+.setpassword_main_div{
+  width: 100%;
+  height: 800px;
+  background-color:rgb(7, 87, 7);
+   background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url("../Images/Forgot\ password-amico\ \(1\).png");
+    background-size: contain; 
+  
+   position:fixed;
+}
+.image-div{
+  height: 300px;
+  background-color: rgb(20, 189, 43);
+}
+ .setpassword_main_div_form{
+  /* background-color: black; */
+  position: fixed;
+ height: 520px;
+ background-color:rgb(6, 68, 6);
+ width: 35%;
+ display: inline-block;
+ margin-left: 400px;
+ margin-top:70px ;
+
+  /* border: 7px solid green; */
+}
+.reset_input, .reset_but, .reset_but2{
+  display: flex;
+  padding: 0px;
+margin-top: 50px;
+text-align: center;
+font-size: 20px;
+
+}
+.form_heading{
+  color: white;
+  text-align: center;
+  text-transform: capitalize;
+  align-items: center;
+  margin-bottom: 40px;
+  padding-top: 40px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.reset_input{
+  margin-left: 70px;
+width: 70%;
+height: 40px;
+}
+.reset_input::placeholder{
+ background-color: black;
+ background:none;
+ text-transform: capitalize;
+}
+.reset_but, .reset_but2{
+  margin-left: 70px;
+  width: 70%;
+  padding-left: 114px;
+  height: 40px;
+padding-top: 10px;
+  
+}
+.reset_but{
+
+  background-color: gold;
+}
+.reset_but2{
+
+  background-color:gold
+}
+.reset_but:hover{
+  border-radius: 30px;
+  background-color:skyblue;
+}
+.reset_but2:hover{
+
+  background-color:skyblue;
+  border-radius: 30px;
+}
+
+.reset_pass_name{
+  color: white;
+  text-transform: capitalize;
+  text-align: center;
+ padding-left:99px ;
+ padding-bottom:100px ;
+
+}
+.form_img{
+  height: 80px;
+  width: 20%;
+  /* background-color: red; */
+  margin-left: 170px;
+  margin-top: 10px;
+  padding: 3px;
+  border-style: hidden;
+  border-radius: 30%;
+  background-image: url("../Images/IAI.com.png");
+  background-size: contain;
+ 
+}
+
+.main_dash_di{
+
+}
+
+
+/*-------Dashboards-----------------*/
+.main_dash_div{
+
+ background-color:  #333333;
+ width: 100%;
+ height: 1000px;
+display: flex;
+position: fixed;
+overflow-y: scroll;
+
+background-size: cover;
+
+}
+.main_dash_left, .main_dash_right{
+  height: 30px;
+  width: 50px;
+  background-color: yellowgreen;
+  display: inline-block;
+}
+.main_dash_right{
+height: 1000px;
+position: relative;
+width: 17%;
+overflow:scroll;
+display: flex;
+flex-direction: column;
+margin-top: 0px;
+position: fixed;
+display: inline-block;
+
+}
+.main_dash_left{
+  height: 60px;
+width: 100%;
+margin: 0px;
+flex-direction: row;
+/* position: fixed; */
+margin-left: 30px;
+}
+.main_dash_middle{
+  height: 200px;
+  width: 80.5%;
+padding-top: 50px;
+margin-left: 229px;
+  flex-direction: row;
+  display: inline-block;
+  margin-top: 900px;
+  margin-top: 65px;
+  position: fixed;
+  display: flex;
+  
+}
+
+ .main_dash_middle1, .main_dash_middle2, .main_dash_middle3{
+   flex: 2;
+   border-radius: 3px;
+   border: 2px solid rgb(194, 171, 41);
+   padding-top: 60px;
+   margin-right:5px;
+   width: 10px;
+   height: 40px;
+   margin-bottom: 100px;
+   position: relative;
+   color: white;
+   text-align: center;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 20px;
+   padding: 30px;
+  cursor: pointer;
+}
+
+ .main_dash_right2, .main_dash_right3, .main_dash_right4,.main_dash_right5, .main_dash_right6{
+  height: 70px;
+  width: 100%;
+background-color: aliceblue;
+margin-bottom: 20px;
+margin-top: 30px;
+;
+}
+.icon1{
+  background-color:red;
+  height: 1000px;
+  width: 60%;
+}
+
+.main_dash_right1{
+  margin-top: 30px;
+  height: 70px;
+  width: 50%;
+  margin-left: 40px;
+  background-image: url("../Images/IAI.com.png");
+  background-size: cover;
+}
+
+/*LoginOPtions*/
+
+.loginOptions_main_div{
+  height: 1010px;
+  width: 100%;
+  background-color: #0e411e;
+  background-image:linear-gradient(rgba(6, 7, 7, 0.678), rgba(10, 12, 11, 0.6)), url('../Images/campus.png');
+  background-size: contain;
+}
+.tittle{
+  color: #ccc;
+  text-align: center;
+  padding-top: 190px;
+  padding-left: 30px;
+}
+/* .loginOptions_main_div12{
+ background-color: rgb(28, 43, 8);
+ height: 100px;
+ margin-top: 50px;
+ width: 100%;
+ display: inline-block
+} */
+.loginOptions_main_div1, .loginOptions_main_div2, .loginOptions_main_div3{
+  height: 100px;
+
+  display: flex;
+  margin: 30px;
+  width: 30%;
+  margin-left: 450px;
+  cursor:pointer;
+  overflow: none;
+  border-radius: 0px;
+  box-shadow: #080c09;
+}
+.loginOptions_main_div1{
+  background-color:green;
+  
+}
+.loginOptions_main_div1:hover{
+  cursor: pointer;
+  border-radius: 30px;
+}
+.loginOptions_main_div2{
+  background-color: red;
+}
+.loginOptions_main_div2:hover{
+  cursor: pointer;
+  border-radius: 30px;
+}
+.loginOptions_main_div3{
+  background-color: rgb(207, 207, 21);
+}
+.loginOptions_main_div3:hover{
+  cursor: pointer;
+  border-radius: 30px;
+}
+.loginOptions_main_div a{
+  text-decoration: none;
+  text-transform: none;
+  text-align: center;
+  padding-left: 120px;
+  font-size: 35px;
+  padding-top: 30px;
+  color: white;
+  
+}
